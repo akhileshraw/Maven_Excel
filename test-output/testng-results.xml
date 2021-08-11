@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entering User name]]>
+    </line>
+    <line>
+      <![CDATA[Entering the Password]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-11T08:36:26 IST" name="Suite1" finished-at="2021-08-11T08:36:44 IST" duration-ms="17621">
+    <groups>
+    </groups>
+    <test started-at="2021-08-11T08:36:26 IST" name="Regression1" finished-at="2021-08-11T08:36:44 IST" duration-ms="17621">
+      <class name="Excel_Java.Excel_File">
+        <test-method is-config="true" signature="startup()[pri:0, instance:Excel_Java.Excel_File@446293d]" started-at="2021-08-11T08:36:26 IST" name="startup" finished-at="2021-08-11T08:36:34 IST" duration-ms="7796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="login()[pri:0, instance:Excel_Java.Excel_File@446293d]" started-at="2021-08-11T08:36:34 IST" name="login" finished-at="2021-08-11T08:36:42 IST" duration-ms="8178" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering User name]]>
+            </line>
+            <line>
+              <![CDATA[Entering the Password]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Excel_Java.Excel_File@446293d]" started-at="2021-08-11T08:36:42 IST" name="teardown" finished-at="2021-08-11T08:36:44 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Excel_Java.Excel_File -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
